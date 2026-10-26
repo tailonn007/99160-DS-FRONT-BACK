@@ -1,0 +1,21 @@
+{
+  "name": "99160-ds-front-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tailonn007/99160-DS-FRONT-BACK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tailonn007/99160-DS-FRONT-BACK/issues"
+  },
+  "homepage": "https://github.com/tailonn007/99160-DS-FRONT-BACK#readme"
+}
