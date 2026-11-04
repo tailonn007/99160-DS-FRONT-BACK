@@ -1,0 +1,27 @@
+<section>
+  <h2>Adicionar Usuário</h2>
+  <form #form="ngForm"(ngSubmit)="adicionarUsuario()">
+    <div>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome "name="nome" [(ngModel)]="nome" required />
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input 
+        type="email" id="email" name="email" [(ngModel)]="email" required />
+        id="email" 
+        name="email" 
+        [(ngModel)]="email" 
+        required />
+    </div>
+    <button type="submit">Adicionar</button>
+  </form>
+  <hr>
+  <h3>Lista de Usuários</h3>
+  <ul>
+    @for (usuario of usuarios; track $index) {
+      <li>{{ usuario.nome }} - {{ usuario.email }}</li>
+    }
+  </ul>
+  <hr/>
+</section>
